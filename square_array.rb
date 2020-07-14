@@ -3,5 +3,5 @@ def square_array(numbers)
   numbers.each do |number|
   squared.push(number **2)
 end
-  return squared
+  squared.collect
 end
